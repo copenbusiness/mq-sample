@@ -26,6 +26,7 @@ import jakarta.jms.Queue;
  * the program sends one message. Specify a number as command line argument to
  * send that number of messages.
  */
+// point to point queue sample
 public class QueueProducer {
 
     @Resource(lookup = "java:comp/DefaultJMSConnectionFactory")
